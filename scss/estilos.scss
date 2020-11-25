@@ -1,0 +1,19 @@
+/*Variables*/
+$media__medio: 992px;
+
+/*Header*/
+    /*Header__Menu*/
+header{
+    .navbar__position{
+        justify-content: center; margin-top:10px;}
+            @media screen and (max-width: $media__medio){
+            .navbar__position{
+                justify-content: flex-end;}}
+
+                
+    .active{border: solid; border-width: 2px 0px 2px 0px; color:rgba(179, 156, 26, 0.829);}
+    .h1--custom{
+        font-size: 35px;margin: -16px 0px -16px 0px;}
+    .h2--custom{
+        font-size: 20px;margin: 10px 0px -16px 0px;}
+}
