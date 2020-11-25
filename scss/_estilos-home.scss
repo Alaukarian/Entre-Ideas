@@ -1,0 +1,11 @@
+.gallery__item{
+    height: 40vh;
+    width: 24vw;
+    padding: 3px;
+    @media screen and (max-width: 992px) {
+        height: 400px;;
+    }
+}
+.container-fluid--paddingout{
+    padding: 0px;
+}
