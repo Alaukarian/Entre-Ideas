@@ -20,11 +20,30 @@ header{
         font-size: 20px;margin: 10px 0px -16px 0px;}
 }
 /*Footer*/
-.nav__footer{
-    color: inherit;
-    text-decoration: none;
-    & :hover{
+footer{
+    a{
         text-decoration: none;
-        color: black;
+        color: inherit;
+        &:hover{
+            text-decoration: none;
+            color: black;
+        }
+    }
+    .nav__footer{
+        color: inherit;
+        text-decoration: none;
+        & :hover{
+            text-decoration: none;
+            color: black;
+        }
+    }
+    .iconos{
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+    }
+    #ig{
+        position: relative;
+        bottom: 10px;
     }
 }

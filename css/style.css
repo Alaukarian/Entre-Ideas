@@ -97,9 +97,25 @@ header .h2--custom {
   margin: 10px 0px -16px 0px; }
 
 /*Footer*/
-.nav__footer {
-  color: inherit;
-  text-decoration: none; }
-  .nav__footer :hover {
+footer a {
+  text-decoration: none;
+  color: inherit; }
+  footer a:hover {
     text-decoration: none;
     color: black; }
+
+footer .nav__footer {
+  color: inherit;
+  text-decoration: none; }
+  footer .nav__footer :hover {
+    text-decoration: none;
+    color: black; }
+
+footer .iconos {
+  display: inline-block;
+  height: 50px;
+  width: 50px; }
+
+footer #ig {
+  position: relative;
+  bottom: 10px; }
