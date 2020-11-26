@@ -16,44 +16,85 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <title>Entre Ideas</title>
 </head>
-<body>
-    <header class="sticky-top shadow pt-3 mb-5 bg-white">
-            <h1 class="text-center h1 h1--custom">ENTRE IDEAS</h1>
-            <h2 class="text-center text-muted h2 h2--custom">COSITAS LINDAS</h2>
-        <div class="container">
-            <div class="row navbar__position">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon navbar__position"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                        <a class="nav-link text-center" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Cuadernos</a>
-                            <a class="dropdown-item" href="#">Bandejas</a>
-                            <a class="dropdown-item" href="#">Libretas</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-center" href="quienes-somos.html">Quienes Somos?</a>
-                        </li>
-                        <li class="nav-item active">
-                        <a class="nav-link text-center" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    </div>
-                </nav>
+<body  class="main__contacto">
+    <!--Header-->
+    <!--Header__Texto-->
+    <header class="sticky-top shadow pt-3 mb-3 bg-white">
+      <h1 class="text-center h1 h1--custom">ENTRE IDEAS</h1>
+      <h2 class="text-center text-muted h2 h2--custom">COSITAS LINDAS</h2>
+  <!--Header__Menu-->
+  <div class="container">
+      <div class="row navbar__position">
+          <nav class="navbar navbar-expand-lg navbar-light">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon navbar__position"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                  <a class="nav-link text-center" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Cuadernos</a>
+                      <a class="dropdown-item" href="#">Bandejas</a>
+                      <a class="dropdown-item" href="#">Libretas</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-center" href="quienes-somos.html">Quienes Somos?</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link text-center" href="contacto.html">Contacto</a>
+                  </li>
+              </ul>
+              </div>
+          </nav>
+      </div>
+  </div>
+</header>
+    <main>
+      <div class="container container--form">
+        <div class="row">
+            <div class="col-lg-3 col-xl-2 col-sm-1"></div>
+            <div class="card  col-lg-6 col-xl-8 col-sm-10 col-xs-12">
+                <div class="card-body d-flex">
+                    <h3>¡Te escuchamos!</h3>
+                    <form action="#" class="contacto-formulario">
+                        <input type="input-group" placeholder="Nombre" id="nombre">
+                        <input type="input-group" name="" id="email" placeholder="email"  required>
+                        <textarea name="" id="area-texto-contacto" cols="30" rows="5" placeholder="¡Hola!"></textarea>
+                        <button type="submit" class="btn btn-light">Enviar</button>
+                    </form>
+                 </div>
             </div>
         </div>
-    </header>
-    <!--Scripts-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="../js/bootstrap.bundle.js"></script>
+    </div>
+    </main>
+    <footer class="container-fluid fixed-bottom shadow bg-white">
+      <div class="container">
+        <div class="row">
+            <nav class="col-xl-4">
+                <h4>Mapa</h4>
+                    <ul>
+                        <li style="list-style-type: none;"><a href="index.html" class="nav__footer">Inicio</a></li>
+                        <li style="list-style-type: none;"><a>Productos</a></li>
+                        <li style="list-style-type: none;"><a href="pages/quienes-somos.html" class="nav__footer">Quienes Somos?</a></li>
+                        <li style="list-style-type: none;"><a href="pages/contacto.html" class="nav__footer">Contacto</a></li>
+                    </ul>
+            </nav>
+            <section class="col-xl-4">
+                <h4 class="text-center">Redes</h4>
+            </section>
+            <section class="col-xl-4">
+                <h4 class="text-center">Medios de Pago</h4>
+            </section>
+        </div>
+    </div>
+  </footer>
+<!--Scripts Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 </html>

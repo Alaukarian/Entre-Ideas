@@ -1,0 +1,11 @@
+.placeholder{
+    height: 20vh;
+    width: 100%;
+    background-color: black; position: relative; top: 20vh; border-radius: 55px; 
+    .placeholder__texto{
+        color: white; text-align: center; font-size: 13vh;
+    }
+}
+.placeholder:hover{
+    opacity: 0.5;
+}

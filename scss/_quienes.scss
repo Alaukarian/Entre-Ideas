@@ -1,0 +1,17 @@
+.quienes__area{
+    background-color: indianred;
+    opacity: 0.3;
+    width: 100%;
+    height: 600px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px;
+    
+}
+/*Corregir*/
+.quienes__text{
+    position: relative; bottom: 600px; padding: 0px 20px 0px 20px;display: flex; flex-flow: row wrap; overflow: hidden;
+    .primera_letra{
+        display: inline; font-size: 8vh; font-family: Verdana, Geneva, Tahoma, sans-serif; color: grey;
+    }
+}
+
