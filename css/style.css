@@ -9,6 +9,10 @@
 .container-fluid--paddingout {
   padding: 0px; }
 
+.slider__container {
+  height: 250px;
+  overflow: hidden; }
+
 /*Variables*/
 /*Header*/
 /*Header__Menu*/
@@ -32,3 +36,11 @@ header .h1--custom {
 header .h2--custom {
   font-size: 20px;
   margin: 10px 0px -16px 0px; }
+
+/*Footer*/
+.nav__footer {
+  color: inherit;
+  text-decoration: none; }
+  .nav__footer :hover {
+    text-decoration: none;
+    color: black; }
